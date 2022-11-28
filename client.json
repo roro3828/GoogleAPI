@@ -1,0 +1,13 @@
+{
+    "web":{
+        "client_id":"342262203758-gi34t92rasro9kavr1g89scebi5te21v.apps.googleusercontent.com",
+        "project_id":"download-liked-youtube-videos",
+        "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+        "token_uri":"https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret":"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",
+        "redirect_uris":[
+            "http://localhost:8080"
+        ]
+    }
+}

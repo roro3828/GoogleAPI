@@ -74,6 +74,15 @@ class GoogleAPI():
             self.expiration_time=time()+float(json_response["expires_in"])
 
         return response
+
+    def read_client_ids(self,path:str="client.json",type:str="web")->dict:
+        with open(path,"r",encoding="utf-8") as f:
+            data=json.load(f)
+
+        self.client_id=data[type]["client_id"]
+        self.client_secret=data[type]["client_secret"]
+
+        return data
     
     def save_keys(self,path:str=None)->None:
         if path==None:

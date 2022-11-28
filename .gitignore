@@ -1,5 +1,6 @@
 /__pycache__
 /.vscode
+/downloads
 
 client_secrets.json
 keys.json
