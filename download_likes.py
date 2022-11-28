@@ -7,7 +7,7 @@ import sys
 import googleapi
 
 g=googleapi.GoogleAPI()
-g.read_client_ids()
+g.read_client_ids("youtube-client.json")
 g.read_keys()
 
 if g.expiration_time<=time.time()-60:

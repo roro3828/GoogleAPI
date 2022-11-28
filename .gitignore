@@ -2,5 +2,5 @@
 /.vscode
 /downloads
 
-client_secrets.json
-keys.json
+*client.json
+*keys.json
